@@ -317,7 +317,7 @@ class RegistrationSystem: #defining a class called the registarion system
 
 def main():
     # Create a doctor's schedule
-    doctor_name = "Dr. Andrew" #This line creates a docotr name
+    doctor_name = "Dr. Smith" #This line creates a doctor name
     doctor_schedule = DoctorSchedule(doctor_name) #This line creates a doctor schedule object
     hospital.add_doctor(Doctor(doctor_name, doctor_schedule))
     doctor_schedule.add_slot("2024-03-27", "09:00") #This line adds a data and time to the doctor's schedule by .add_slot
